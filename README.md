@@ -24,8 +24,11 @@ Otrā **Time** bibliotēka, kuru izmanto, lai skripta izpildei pievienotu aizkav
 Trešā **CSV** bibliotēka, tā tiek izmantota datu ierakstīšanai CSV failā, tabulveida datu glabāšanai, tā ir praktiska, viegli lietojama. Konkrēti mans projekts tajā glabā datus par nekustamo īpašumu.
 ### Tāpat tika pievienoti moduļi un klases.
 Klase **Select** no moduļa **selenium.webdriver.support.ui** tiek izmantota, lai mijiedarbotos ar izkritušajiem sarakstiem, piemēram, izkritušajām izvēlnēm. Manā projektā tas tiek izmantots, lai atlasītu opciju izkritušā sarakstā tīmekļa lapā, iestatot meklēšanas opcijas.
+
 Izņēmums **NoSuchElementException** tiek izmantots, lai apstrādātu situācijas, kad vienums tīmekļa lapā nav atrasts. Tas palīdz padarīt kodu noturīgāku pret izmaiņām tīmekļa lapā un novērst iespējamās kļūmes. Tāpat palīdz uztaisīt programmu bez bezgalīga cikla, lai pēc visu datu apstrādes, programma pati aizvērtu tīmekļa lapu. 
+
 **Service from selenium.webdriver.chrome.service** modulis pārstāv **Service** klasi, kuru var izmantot, lai pārvaldītu pārlūkprogrammas pakalpojumu, piemēram, ChromeDriver, startējot to. Izmantojiet šo klasi, lai pārvaldītu un konfigurētu pārlūkprogrammu, startējot to, izmantojot WebDriver. By from modulis selenium.webdriver.common.by pārstāv By klasi, kas nodrošina dažādas metodes, kā tīmekļa lapā identificēt elementus. Manā projektā to izmanto, lai tīmekļa vietnē atrastu vajadzīgos objektus, izmantojot identifikatorus, piemēram, ID, XPATH un citus.
+##  Par programmatūras izmantošanas metodem.
 Lai aprakstītu programmatūras izmantošanas metodes, ir jāsaprot, kā lietotājs to var izmantot, tūlīt tiks aprakstītas galvenās darbības, kas var būt nepieciešamas, lietojot programmatūru, un ko var veikt lietotājs.
 * Sākšanas un pielāgošanas konfigurācija - lai sāktu lietot programmu, lietotājam var būt jāinstalē dažādi iestatījumi, programmas vai konfigurācijas faili. Pēc instalēšanas lietotājs palaiž programmu, iekļaujot izpildāmo skriptu vai izpildot atbilstošu komandu.
 * Ievadot meklēšanas kritēriju, tiek ietverts, ka, pirmo reizi startējot, lietotājs var pielāgot iestatījumus, ja nepieciešams, piemēram, dzīvokļu cenu diapazonu, istabu skaitu, atrašanās vietu un citus parametrus, kas palīdzēs precizēt meklēšanas rezultātus.
@@ -33,6 +36,7 @@ Lai aprakstītu programmatūras izmantošanas metodes, ir jāsaprot, kā lietot�
 * Datu bāzes vai failu atjaunināšana, tas ir, ja programma tiek lietota ilgāku laiku, iespējams, būs regulāri jāatjaunina vai jāsaglabā informācija. Tas var notikt, saglabājot datus datu bāzē vai failā.
 * Datu apstrāde un uzglabāšana, kur lietotājam var būt nepieciešams saglabāt vai eksportēt datus uz kādu no programmas piedāvātajiem formātiem, manā gadījumā, tas notiek CSV formātā.
 * Aizveriet un saglabājiet konfigurāciju, lai lietotājs varētu saglabāt vai aizvērt programmu, saglabājot tās konfigurācijas iestatījumus, lai nākamajā reizē varētu viegli atsākt darbu no tā paša punkta.
+
 Tas varētu būt viens piemērs, kā lietotājs var izmantot šo programmatūru, balstoties uz manu izstrādāto kodu. Protams, iespējams, būs jāpievieno vai jāpielāgo funkcionālās iespējas atkarībā no maniem konkrētajiem mērķiem un prasībām. Tāpat atkarībā no lietotāja apstākļiem un vēlmēm, piemēram, varētu pievienot paziņojumus par jauniem rezultātiem, ja lietotājam tas būtu vajadzīgs, proti, programma varētu piedāvāt iespēju paziņot lietotājam par jaunatrastajiem paziņojumiem. Izstrādātais kods ir labi automatizēts un man ir labi piemērots ikdienas uzdevuma veikšanai.
 
 #### Projekta autore - Valērija Fiļimoņenko
