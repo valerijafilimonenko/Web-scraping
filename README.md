@@ -1,6 +1,6 @@
 # Web-scraping
 Projekta mērķis ir izstrādāt pilnvērtīgu programmu, kas automatizēs kādu manu ikdienas uzdevumu. Savam projektam esmu izvēlējusies tīmekļa skrapingu, kas ļauj iegūt vajadzīgo informāciju no visām tīmekļa resursu lapām. Projekta uzdevums veikt platformas skrapingu, kurā ir publiski pieejami nekustamā īpašuma sludinājumi, pēc tam šos datus saglabāt CSV failā, izvēlējos šo formātu, jo tas ir vienkāršs tabulveida datu glabāšanas formāts, kas ir viegli lasāms un apstrādājams. Pēc projekta uzdevuma noskaidrošanas, ir jāsaprot, ko vēlamies no tā iegūt, manā gadījumā ir jāsaņem īsa informācija par katru dzīvokli, tā cenu, cik tajā ir istabu, kurā stāvā atrodas, tā atrašanās vietu (ielu). Tāpat, izmantojot algoritmu, tika pievienotas saites ātrai pāriešanai no CSV faila uz ieinteresēto sludinājumu. Pēc mājas lapas izvēles un konkrētu parametru noteikšanas vajadzīgā nekustamā īpašuma atrašanai, jāuzzina kuros mājas lapas elementos tiek glabāti nepieciešamie dati, bija jāizdomā skrapinga loģika, kas ļaus mums iegūt visu vajadzīgo informāciju no katra sludinājuma un saglabāt to CSV failā. 
-## Tāpēc man bija jāatbild uz šādiem jautājumiem:
+### Tāpēc man bija jāatbild uz šādiem jautājumiem:
 **1.** Kā iegūt vajadzīgo informāciju no viena sludinājuma? (piemēram, šī varētu būt cena)
 
 **2.** Kā iegūt šo informāciju, bet jau no visiem sludinājumiem lapā?
