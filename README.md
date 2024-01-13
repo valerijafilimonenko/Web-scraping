@@ -2,9 +2,9 @@
 Projekta mērķis ir izstrādāt pilnvērtīgu programmu, kas automatizēs kādu manu ikdienas uzdevumu. Savam projektam esmu izvēlējusies tīmekļa skrapingu, kas ļauj iegūt vajadzīgo informāciju no visām tīmekļa resursu lapām. Projekta uzdevums veikt platformas skrapingu, kurā ir publiski pieejami nekustamā īpašuma sludinājumi, pēc tam šos datus saglabāt CSV failā, izvēlējos šo formātu, jo tas ir vienkāršs tabulveida datu glabāšanas formāts, kas ir viegli lasāms un apstrādājams. Pēc projekta uzdevuma noskaidrošanas, ir jāsaprot, ko vēlamies no tā iegūt, manā gadījumā ir jāsaņem īsa informācija par katru dzīvokli, tā cenu, cik tajā ir istabu, kurā stāvā atrodas, tā atrašanās vietu (ielu). Tāpat, izmantojot algoritmu, tika pievienotas saites ātrai pāriešanai no CSV faila uz ieinteresēto sludinājumu. Pēc mājas lapas izvēles un konkrētu parametru noteikšanas vajadzīgā nekustamā īpašuma atrašanai, jāuzzina kuros mājas lapas elementos tiek glabāti nepieciešamie dati, bija jāizdomā skrapinga loģika, kas ļaus mums iegūt visu vajadzīgo informāciju no katra sludinājuma un saglabāt to CSV failā. 
 ## Tāpēc man bija jāatbild uz šādiem jautājumiem:
 **1.** Kā iegūt vajadzīgo informāciju no viena sludinājuma? (piemēram, šī varētu būt cena)
-**2.** Kā iegūt šo informāciju, bet jau no visiem sludinājumiem lapā?
-**3.** Tā kā pēc mana pieprasījuma mājas lapā bija vairākas lapas, radās jautājums, kā iegūt šo pašu informāciju, bet jau no visām lapām?
-**4.** Kā saglabāt visu CSV failā esošo informāciju, lai viss tiktu ierakstīts rindiņā, ar vajadzīgajiem virsrakstiem, lai viegli pārskatītu failu?
+**1.** Kā iegūt šo informāciju, bet jau no visiem sludinājumiem lapā?
+**1.** Tā kā pēc mana pieprasījuma mājas lapā bija vairākas lapas, radās jautājums, kā iegūt šo pašu informāciju, bet jau no visām lapām?
+**1.** Kā saglabāt visu CSV failā esošo informāciju, lai viss tiktu ierakstīts rindiņā, ar vajadzīgajiem virsrakstiem, lai viegli pārskatītu failu?
 ## Mana projekta pamatuzdevumi:
 * Nekustamā īpašuma tirgus monitorings, aktuālas informācijas saņemšanai par pieejamajiem sludinājumiem, manā gadījumā, par nekustamā īpašuma izīrē Rīgas centrā, konkrētajā rajonā.
 * Sekojot izmaiņām sludinājumos, programma ļauj izsekot, piemēram, cenu izmaiņām, jaunu dzīvokļu piedāvājumu parādīšanos utt.
