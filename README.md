@@ -15,10 +15,12 @@ Projekta mērķis ir izstrādāt pilnvērtīgu programmu, kas automatizēs kādu
 * Nekustamā īpašuma datu bāzes izveide, kas ietver tās veidošanu ar vajadzīgo informāciju un var tikt izmantota tālākai analīzei vai informācijas sniegšanai lietotājiem.
 * Automatizēt noteiktu sludinājumu tipu meklēšanu, piemēram, programmā var mainīt sev vai citam jebkuram cilvēkam vajadzīgos datus par konkrēti interesējošiem sludinājumu parametriem.
 * Apkopot datus ērtā formātā turpmākai lietošanai un ērtai lasīšanai un uztverei.
-
+## Kādas Python bibliotēkas tiek izmantotas projekta izstrādes laikā?
 Iedvesmojoties no iepriekšējā praktiskā darba par datu iegūšanu ar **Selenium** bibliotēkas palīdzību, tā arī kļuva par pamatbibliotēku manā programmā. Protams, mājas lapas parsingam varēja izmantot tādas ne mazāk pazīstamas bibliotēkas kā BeautifulSoup un requests, tās izpilda statisko skrapingu, bet man labāk patika dinamiskais skrapings, ko tieši veic Selenium bibliotēka.
 Tā ir nepieciešama, lai automatizētu tīmekļa pārlūkprogrammu. Manā projektā to lieto, lai vadītu Chrome tīmekļa pārlūkprogrammu, aizpildītu veidlapas, naviģētu pa lapām un izgūtu datus no tīmekļa lapas. Selenium bibliotēka ir spēcīgs rīks tīmekļa skrāpēšanai un darbību automatizēšanai tīmekļa lapās, kas noder, ja API nav pieejams vai nepiešķir nepieciešamo funkcionalitāti.
+
 Otrā **Time** bibliotēka, kuru izmanto, lai skripta izpildei pievienotu aizkaves. Proti, piemēram, lai pārietu uz vēlamo vietni, nepieciešams laiks, lai lapa varētu pilnībā ielādēt datus un nebūtu nekādu kļūmju vai problēmu, tā ir ļoti noderīga un turklāt aizkavēšanās laiku izvēlas pats lietotājs.
+
 Trešā **CSV** bibliotēka, tā tiek izmantota datu ierakstīšanai CSV failā, tabulveida datu glabāšanai, tā ir praktiska, viegli lietojama. Konkrēti mans projekts tajā glabā datus par nekustamo īpašumu.
 ### Tāpat tika pievienoti moduļi un klases.
 Klase **Select** no moduļa **selenium.webdriver.support.ui** tiek izmantota, lai mijiedarbotos ar izkritušajiem sarakstiem, piemēram, izkritušajām izvēlnēm. Manā projektā tas tiek izmantots, lai atlasītu opciju izkritušā sarakstā tīmekļa lapā, iestatot meklēšanas opcijas.
